@@ -1,0 +1,38 @@
+<RECIPE>
+  <TITLE>Spaghetti Pomodoro</TITLE>
+  <CATEGORY>Italian</CATEGORY>
+  <SERVINGS>2-4</SERVINGS>
+  <TIME>45 minutes</TIME>
+  <INGREDIENTS>
+    <INGREDIENT>
+      <QUANTITY>500g</QUANTITY>
+      <NAME>Tomatoes</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>5</QUANTITY>
+      <NAME>Garlic Cloves</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1</QUANTITY>
+      <NAME>Onion</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1 Handful</QUANTITY>
+      <NAME>Basil</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>2 Tbsp</QUANTITY>
+      <NAME>Tomato Paste</NAME>
+    </INGREDIENT>
+    <EXTRA>Parmesan</EXTRA>
+    <EXTRA>Olive Oil</EXTRA>
+    <EXTRA>Spaghetti</EXTRA>
+  </INGREDIENTS>
+  <STEPS>
+    <STEP>Pre-heat oven to 180, halve the tomatoes and peel garlic. Then toss on baking tray and cover in salt, pepper and olive oil. Put in to roast for 35 minutes.</STEP>
+    <STEP>Dice onion and fry in olive oil till soft and brown, then add squeeze of tomato paste and cook for a few minutes to get rid of bitter taste.</STEP>
+    <STEP>Heavily salt pasta water and add spaghetti, then cook for 12 minutes.</STEP>
+    <STEP>Add onion, tomatoes, garlic and juices to blender. Blend till smooth then add a handful of basil and blend till chopped.</STEP>
+    <STEP>Pour sauce into pan and add salt and pepper to taste. Then simmer for a few minutes before introducing spaghetti, add some pasta water to enhance flavour. Add parmesan and a little more pasta water.</STEP>
+  </STEPS>
+</RECIPE>

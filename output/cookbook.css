@@ -1,0 +1,83 @@
+body {
+  color: black;
+  font-family: 'Franklin Gothic Medium';
+  background-color: white;
+  size: 7in 9.25in;
+  margin: 27mm 16mm 27mm 16mm;
+}
+
+recipe {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  width: 21cm;
+  height: 29.7cm;
+}
+
+recipeName {
+  font-size: 400%;
+  padding-left: 2%;
+  display: block;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  padding-left: 2%;
+}
+
+servings {
+  font-size: medium;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+time {
+  font-size: medium;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+ingredients {
+  font-size: large;
+  padding-top: 2%;
+  padding-left: 2%;
+  display: block;
+}
+
+ingredient {
+  font-size: large;
+  padding-left: 2%;
+}
+
+extras {
+  font-size: large;
+  padding-top: 2%;
+  display: block;
+}
+
+extra {
+  font-size: large;
+  padding-top: 0%;
+  padding-left: 2%;
+}
+
+steps {
+  font-size: large;
+  padding-top: 2%;
+  padding-left: 2%;
+  display: block;
+}
+
+step {
+  font-size: large;
+}
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
