@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07ee93a8-65ec-47b7-89e7-d906e3dce551" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/output/cookbook.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/cookbook.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CookBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recipes/Italian/Pomodoro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Recipes/Italian/Pomodoro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recipe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recipe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/cookbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/cookbook.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +28,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/micro/OneDrive/Desktop/Personal/Projects/CookBookGenerator/Content/Recipes/Italian"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/micro/OneDrive/Desktop/Personal/Projects/CookBookGenerator/Content/Recipes/Italian&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\micro\OneDrive\Desktop\Personal\Projects\CookBookGenerator\Content\Recipes\Italian" />

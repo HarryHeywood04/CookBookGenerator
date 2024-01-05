@@ -23,9 +23,14 @@ recipeName {
 }
 
 img {
-  width: 30%;
-  height: 30%;
-  padding-left: 2%;
+  float: right;
+  padding-top: 5%;
+  padding-right: 2%;
+  display:block;
+  max-width: 350px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
 }
 
 servings {
