@@ -78,4 +78,9 @@ servings, time, ingredients, steps, step {
 @page {
   size: A4;  
   margin: 35pt 30pt 35pt 30pt;
+
+  
+  @bottom-right {
+    content: counter(page);
+  }
 }

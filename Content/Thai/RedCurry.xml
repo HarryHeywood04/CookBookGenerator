@@ -1,0 +1,32 @@
+<RECIPE>
+  <TITLE>Red curry</TITLE>
+  <CATEGORY>Thai</CATEGORY>
+  <SERVINGS>1</SERVINGS>
+  <TIME>30 minutes</TIME>
+  <INGREDIENTS>
+    <INGREDIENT>
+      <QUANTITY>50g</QUANTITY>
+      <NAME>Red curry paste</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>200g</QUANTITY>
+      <NAME>Chicken</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>360ml</QUANTITY>
+      <NAME>Coconut milk</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>100g</QUANTITY>
+      <NAME>Rice</NAME>
+    </INGREDIENT>
+    <EXTRA>Coriander</EXTRA>
+    <EXTRA>Thai Basil</EXTRA>
+    <EXTRA>Vegetables</EXTRA>
+  </INGREDIENTS>
+  <STEPS>
+    <STEP>Finely chop the coriander and veg. Dice chicken.</STEP>
+    <STEP>Stir fry the curry paste in oil and then add 1cup of coconut milk, stir through then add meat and simmer. Meanwhile add rice to a pan with 3/4 cup of water and bring to boil, then reduce to simmer and cover for 12 minutes then rest for 10 minutes.</STEP>
+    <STEP>Add another 1/2 cup of coconut milk with some water if necessary, then add coriander and veg. Allow the curry to simmer for 12 mins when water has reduced, add 1 1/2 tsp sugar and if necessary add some cornstarch mixed with water and simmer for a few more minutes.</STEP>
+  </STEPS>
+</RECIPE>

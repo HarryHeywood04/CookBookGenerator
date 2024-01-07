@@ -29,7 +29,7 @@ public class Printer {
 
     private static int FindCategory(String name, List<Category> categoryList){
         for (int i = 0; i < categoryList.size(); i++) {
-            if (categoryList.get(i).name == name)
+            if (categoryList.get(i).name.equalsIgnoreCase(name))
                 return i;
         }
         return -1;

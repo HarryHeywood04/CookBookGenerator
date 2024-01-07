@@ -1,0 +1,54 @@
+<RECIPE>
+  <TITLE>Shoyu Ramen (quick)</TITLE>
+  <CATEGORY>Japanese</CATEGORY>
+  <SERVINGS>1</SERVINGS>
+  <TIME>30 minutes</TIME>
+  <INGREDIENTS>
+    <INGREDIENT>
+      <QUANTITY>1 tsp</QUANTITY>
+      <NAME>Sesame oil</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1 tsp</QUANTITY>
+      <NAME>Ginger</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1</QUANTITY>
+      <NAME>Garlic clove</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>2 cups</QUANTITY>
+      <NAME>Chicken stock</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1 cup</QUANTITY>
+      <NAME>Kombu dashi soup stock</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>3 tbsps</QUANTITY>
+      <NAME>Soy sauce</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1 tsp</QUANTITY>
+      <NAME>Sugar</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1 tsp</QUANTITY>
+      <NAME>Salt</NAME>
+    </INGREDIENT>
+    <EXTRA>Ramen noodles</EXTRA>
+    <EXTRA>Spring onion</EXTRA>
+    <EXTRA>Nori</EXTRA>
+    <EXTRA>Protein</EXTRA>
+    <EXTRA>Egg</EXTRA>
+    <EXTRA>Bamboo shoots</EXTRA>
+    <EXTRA>Bean sprouts</EXTRA>
+    <EXTRA>Sake</EXTRA>
+  </INGREDIENTS>
+  <STEPS>
+    <STEP>Crush garlic, chop ginger, prepare chicken and dashi soup stock. (Prepare Optionals) Start cooking protein to go with meal.</STEP>
+    <STEP>Heat sesame oil in a deep pan over medium heat, Sauté the ginger and garlic in pan for about a minute, then lower heat and add both stocks to the pan, bring to a boil.</STEP>
+    <STEP>Add the soy sauce, sugar, salt, (sake), and bring to a boil again. Meanwhile boil noodles following package instructions. Once noodles are done boil egg.</STEP>
+    <STEP>Strain soup into bowls then add noodles and toppings.</STEP>
+  </STEPS>
+</RECIPE>

@@ -1,0 +1,43 @@
+<RECIPE>
+  <TITLE>Bonito Donburi</TITLE>
+  <CATEGORY>Japanese</CATEGORY>
+  <SERVINGS>1</SERVINGS>
+  <TIME>20 minutes</TIME>
+  <INGREDIENTS>
+    <INGREDIENT>
+      <QUANTITY>150g</QUANTITY>
+      <NAME>Protein</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1 tsp</QUANTITY>
+      <NAME>Ginger</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1</QUANTITY>
+      <NAME>Onion</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>2</QUANTITY>
+      <NAME>Spring onions</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1 tbsp</QUANTITY>
+      <NAME>Bonito powder</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>1</QUANTITY>
+      <NAME>Egg</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>100g</QUANTITY>
+      <NAME>White rice</NAME>
+    </INGREDIENT>
+    <EXTRA>Soy sauce</EXTRA>
+  </INGREDIENTS>
+  <STEPS>
+    <STEP>Add rice to pan and then add 3/4 cup of water, bring to boil then reduce to simmer, cover with lid, cook for 12 mins then rest for 10 mins.</STEP>
+    <STEP>Chop onions and stir fry the protein, then add onions and add water till almost fully submerged. Add bonito powder and soy sauce so it’s a little saltier than desired.</STEP>
+    <STEP>Beat egg and add to pan and cook till done.</STEP>
+    <STEP>Serve rice and then donburi on top.</STEP>
+  </STEPS>
+</RECIPE>

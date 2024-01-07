@@ -3,15 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="07ee93a8-65ec-47b7-89e7-d906e3dce551" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Images/tikka_masala.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Indian/tikka_masala.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Recipes/Indian/TikkaMasala.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Indian/TikkaMasala.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Recipes/Italian/Pomodoro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Italian/Pomodoro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CookBookGenerator/CookBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CookBookGenerator/CookBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CookBookGenerator/Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CookBookGenerator/Loader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Indian/TikkaMasala.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Indian/TikkaMasala.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CookBookGenerator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CookBookGenerator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/cookbook.css" beforeDir="false" afterPath="$PROJECT_DIR$/output/cookbook.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/cookbook.html" beforeDir="false" afterPath="$PROJECT_DIR$/output/cookbook.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/images/tikka_masala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Loader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,16 +83,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Loader.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

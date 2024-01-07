@@ -3,9 +3,8 @@ import java.util.Scanner;
 
 public class Main {
 
-    //TODO Add context page and page numbers
-    //TODO Add recipe creator functionality
-    //TODO Add recipe grabber
+    //TODO Add support for authors
+    //TODO Create GUI for creating recipes
 
     public static void main(String[] args) {
         Recipe[] recipes = null;
