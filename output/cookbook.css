@@ -4,6 +4,15 @@ body {
   background-color: white;
 }
 
+category {
+  font-size: 60pt;
+  display: flex;
+  padding-top: 35%;
+  align-items: center;
+  justify-content: center;
+  page-break-after: always;
+}
+
 recipe {
   background: white;
   font-size: large;

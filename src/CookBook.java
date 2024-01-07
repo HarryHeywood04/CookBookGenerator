@@ -28,6 +28,14 @@ public class CookBook {
         }
     }
 
+    public void AddCategory(String s){
+        try {
+            book.write("<category>" + s + "</category>\n");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     public void AddRecipe(Recipe r){
         try {
             //Start section
@@ -36,7 +44,7 @@ public class CookBook {
             //Create recipe content
             book.write("<h1>" + r.getName() + "</h1>\n");
             if (r.getImage() != null)
-                book.write("<img src=\"images/" + r.getImage() + "\"></img>\n");
+                book.write("<img src=\"images/" + r.getImage() + "\">\n");
             book.write("<servings>Servings: " + r.getServings() + "</servings>\n");
             book.write("<time>Time: " + r.getTime() + "</time>\n");
 

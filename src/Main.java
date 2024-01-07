@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Main {
 
-    //TODO Add categories
     //TODO Improve content regulations with images
     //TODO Add context page and page numbers
     //TODO Add recipe creator functionality
