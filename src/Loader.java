@@ -1,33 +1,47 @@
 import org.w3c.dom.*;
-
-import javax.imageio.ImageIO;
 import javax.xml.parsers.*;
-import java.awt.image.BufferedImage;
 import java.io.*;
 import java.nio.file.Files;
-import java.nio.file.LinkOption;
 import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.regex.Pattern;
 
 public class Loader {
     public static Recipe[] Load(){
         ArrayList<Recipe> recipes = new ArrayList<>();
-        File recipeFolder = new File("Content/Recipes");
-        File images = new File("output/images");
-        File[] imageItems = images.listFiles();
-        for (File f:imageItems) {
+        File contentFolder = new File("Content");
+        //Delete old images from output folder
+        File oldImages = new File("output/images");
+        File[] oldImageItems = oldImages.listFiles();
+        for (File f:oldImageItems) {
             f.delete();
         }
-        String[] fileNames = getFileNames(recipeFolder);
+
+        String[] fileNames = getFileNames(contentFolder); //Gets all recipes from content folder
         for (String name:fileNames) {
-            recipes.add(readFile(name));
+            if (name.contains(".png") || name.contains(".jpg") || name.contains(".jpeg")){
+                try {
+                    String[] splitFilePath = name.split(Pattern.quote("\\"));
+                    String fileName = splitFilePath[splitFilePath.length-1];
+                    File file = new File("output/images/" + fileName);
+                    file.createNewFile();
+                    Files.copy(
+                            new File(name).toPath(),
+                            new File("output/images/" + fileName).toPath(),
+                            StandardCopyOption.REPLACE_EXISTING);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            } else {
+                recipes.add(readFile(name));
+            }
         }
         Recipe[] result = new Recipe[recipes.size()];
         for (int i = 0; i < result.length; i++) {
             result[i] = recipes.get(i);
         }
-        return result;
+        return result; //Returns list of recipes
     }
 
     public static String[] getFileNames(File file){
@@ -57,7 +71,7 @@ public class Loader {
             doc.getDocumentElement().normalize();
             Recipe recipe = new Recipe();
             recipe.setName(doc.getElementsByTagName("TITLE").item(0).getTextContent());
-            recipe.setCategory(doc.getElementsByTagName("CATEGORY").item(0).getTextContent());
+            recipe.setCategory(doc.getElementsByTagName("CATEGORY").item(0).getTextContent().toUpperCase());
             recipe.setServings(doc.getElementsByTagName("SERVINGS").item(0).getTextContent());
             recipe.setTime(doc.getElementsByTagName("TIME").item(0).getTextContent());
             NodeList ingredients = doc.getElementsByTagName("INGREDIENT");
@@ -76,17 +90,13 @@ public class Loader {
             for (int i = 0; i < steps.getLength(); i++){
                 recipe.addStep(steps.item(i).getTextContent());
             }
+            //Set image
             if (doc.getElementsByTagName("IMAGE").getLength() >= 1) {
-                File file = new File("output/images/" + doc.getElementsByTagName("IMAGE").item(0).getTextContent());
-                file.createNewFile();
-                Files.copy(
-                        new File("Content/Images/" + doc.getElementsByTagName("IMAGE").item(0).getTextContent()).toPath(),
-                        new File("output/images/" + doc.getElementsByTagName("IMAGE").item(0).getTextContent()).toPath(),
-                        StandardCopyOption.REPLACE_EXISTING);
                 recipe.setImage(doc.getElementsByTagName("IMAGE").item(0).getTextContent());
             } else {
                 recipe.setImage(null);
             }
+
             return recipe;
         } catch (Exception e) {
             e.printStackTrace();
