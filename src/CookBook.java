@@ -34,11 +34,11 @@ public class CookBook {
             //book.write("<recipe>\n");
 
             //Create recipe content
-            book.write("<h1>" + r.getName() + "</h1><br>\n");
+            book.write("<h1>" + r.getName() + "</h1>\n");
             if (r.getImage() != null)
                 book.write("<img src=\"images/" + r.getImage() + "\"></img>\n");
-            book.write("<servings>Servings: " + r.getServings() + "</servings><br>\n");
-            book.write("<time>Time: " + r.getTime() + "</time><br>\n");
+            book.write("<servings>Servings: " + r.getServings() + "</servings>\n");
+            book.write("<time>Time: " + r.getTime() + "</time>\n");
 
             //Ingredients
             book.write("<ingredients>Ingredients:<br>\n");
