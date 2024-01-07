@@ -16,6 +16,6 @@ public class Ingredient {
 
     @Override
     public String toString() {
-        return "<quantity>" + this.quantity + "</quantity> - <name>" + this.name + "</name>";
+        return "<quantity>" + this.quantity + "</quantity> - \n<name>" + this.name + "</name>\n";
     }
 }

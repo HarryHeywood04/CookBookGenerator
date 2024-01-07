@@ -14,6 +14,11 @@ public class Loader {
     public static Recipe[] Load(){
         ArrayList<Recipe> recipes = new ArrayList<>();
         File recipeFolder = new File("Content/Recipes");
+        File images = new File("output/images");
+        File[] imageItems = images.listFiles();
+        for (File f:imageItems) {
+            f.delete();
+        }
         String[] fileNames = getFileNames(recipeFolder);
         for (String name:fileNames) {
             recipes.add(readFile(name));
