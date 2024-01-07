@@ -1,0 +1,34 @@
+<RECIPE>
+  <TITLE>Brookie</TITLE>
+  <CATEGORY>Desert</CATEGORY>
+  <SERVINGS>Lots</SERVINGS>
+  <TIME>60 minutes</TIME>
+  <INGREDIENTS>
+    <INGREDIENT>
+      <QUANTITY>200g</QUANTITY>
+      <NAME>Dark chocolate</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>250g</QUANTITY>
+      <NAME>Butter</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>4</QUANTITY>
+      <NAME>Eggs</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>215g</QUANTITY>
+      <NAME>Sugar</NAME>
+    </INGREDIENT>
+    <INGREDIENT>
+      <QUANTITY>220g</QUANTITY>
+      <NAME>Flour</NAME>
+    </INGREDIENT>
+    <EXTRA>Chocolate chips</EXTRA>
+  </INGREDIENTS>
+  <STEPS>
+    <STEP>Brownie: Melt chocolate and 150g butter and combine, then add 3 eggs, 150g sugar and 90g flour.</STEP>
+    <STEP>Cookie: Melt 100g butter and mix 165g sugar then add 1 egg and 230g flour then add chocolate chips.</STEP>
+    <STEP>Put brownie in tin then cook for 10 mins at 160°C then add cookie dough and cook for another 20-30 mins at 180°C.</STEP>
+  </STEPS>
+</RECIPE>
