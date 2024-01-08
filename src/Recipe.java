@@ -1,8 +1,8 @@
-import java.awt.*;
 import java.util.ArrayList;
 
 public class Recipe {
     private String name;
+    private String author;
     private String category;
     private String servings;
     private String time;
@@ -17,6 +17,10 @@ public class Recipe {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public void setCategory(String category) {
@@ -45,6 +49,10 @@ public class Recipe {
 
     public String getName() {
         return name;
+    }
+
+    public String getAuthor() {
+        return author;
     }
 
     public String getCategory() {

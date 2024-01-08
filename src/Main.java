@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Main {
 
-    //TODO Add support for authors
     //TODO Create GUI for creating recipes
 
     public static void main(String[] args) {

@@ -43,6 +43,8 @@ public class CookBook {
 
             //Create recipe content
             book.write("<h1>" + r.getName() + "</h1>\n");
+            if (r.getAuthor() != null)
+                book.write("<author>Author: " + r.getAuthor() + "</author><br>");
             if (r.getImage() != null)
                 book.write("<img src=\"images/" + r.getImage() + "\">\n");
             book.write("<servings>Servings: " + r.getServings() + "</servings>\n");

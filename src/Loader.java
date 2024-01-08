@@ -90,6 +90,13 @@ public class Loader {
             for (int i = 0; i < steps.getLength(); i++){
                 recipe.addStep(steps.item(i).getTextContent());
             }
+
+            if (doc.getElementsByTagName("AUTHOR").getLength() >= 1) {
+                recipe.setAuthor(doc.getElementsByTagName("AUTHOR").item(0).getTextContent());
+            } else {
+                recipe.setAuthor(null);
+            }
+
             //Set image
             if (doc.getElementsByTagName("IMAGE").getLength() >= 1) {
                 recipe.setImage(doc.getElementsByTagName("IMAGE").item(0).getTextContent());

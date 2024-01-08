@@ -10,7 +10,7 @@ category {
   padding-top: 35%;
   align-items: center;
   justify-content: center;
-  page-break-after: always;
+  page-break-before: always;
 }
 
 recipe {
@@ -26,6 +26,11 @@ h1 {
   padding-left: 2%;
   display: block;
   page-break-before: always;
+}
+
+author {
+  font-size: medium;
+  padding-left: 2%;
 }
 
 img {
